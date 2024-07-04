@@ -1,4 +1,7 @@
-## R code for Epigenetic silencing analysis Noushmehr et. al. 210, as done in TCGA hepatocellular carcinoma, Cell (2017), 169, 1237-1241
+## R code for Epigenetic silencing analysis is based on the methodology proposed by Noushmehr et. al. in TCGA hepatocellular carcinoma, Cell (2017), 169, 1237-1241
+## I requested multiple times but Hui Shen didn't prove it. So I make this code for Epigenetic silencing analysis
+## For this analysis we need gene expression and DNA methylation data for both tumor and normal.
+## I can make changes if there are no normal samples. But in the best case scenario, we need both case and control data.
 setwd("F:/OneDrive - University of Nebraska Medical Center/Epigenetic Silencing/")
 library(pacman)
 p_load(multtest, matrixStats, plyr)
